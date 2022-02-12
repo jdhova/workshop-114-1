@@ -24,6 +24,7 @@
   font-size: 40px;
   line-height: 56px;
   font-size: 40px;
+  /* font-family: 'MintGroteskTrial Medium', serif; */
   font-family: 'MintGroteskTrial Bold', serif;
   font-style: solid;
   /* height: 30vh; */
@@ -31,7 +32,6 @@
 
 .section2-infos {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding-top: 10px;
@@ -95,6 +95,14 @@
   margin-bottom: 30px;
 }
 
+.section4-table1,
+.section4-table2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .section4-infos {
   margin-top: 50px;
   display: flex;
@@ -126,6 +134,11 @@
   border-style: ridge;
 }
 
+.section4-table2 h3,
+.section4-table1 h3 {
+  font-size: 20px;
+  padding-left: 30px;
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -156,7 +169,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
   }
 }

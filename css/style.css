@@ -33,7 +33,7 @@
 
 /* section 1 css ends */
 
-/* section 2 css ends */
+/* section 2 css starts */
 
 .section2-infos {
   display: grid;
@@ -59,12 +59,24 @@
   font-size: 20px;
   font-family: 'MintGroteskTrial Medium', serif;
 }
+.info2 p,
+.info3 p {
+  color: white;
+}
+.p-date {
+  color: gray;
+}
 
 .info1 h3,
 .info2 h3,
 .info3 h3 {
   padding-bottom: 18px;
   font-size: 25px;
+}
+
+.info2 h3,
+.info3 h3 {
+  color: white;
 }
 
 .info1 {
